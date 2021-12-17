@@ -1,13 +1,13 @@
 variable "name" {
-	type = string
+  type = string
 }
 
 variable "description" {
-	type = string
-	default = ""
+  type    = string
+  default = ""
 }
 
 variable "topics" {
-	type = list(string)
-	default = []
+  type    = list(string)
+  default = []
 }
